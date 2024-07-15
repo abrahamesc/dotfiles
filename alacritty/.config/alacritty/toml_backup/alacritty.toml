@@ -1,0 +1,10 @@
+#Imports
+import = [
+"/home/abe/.config/alacritty/dracula.toml",
+#"/home/abe/.config/alacritty/keybindings.toml",
+"/home/abe/.config/alacritty/apperance.toml"
+]
+
+[shell]
+program = "/bin/zsh"
+args = ["-l"]

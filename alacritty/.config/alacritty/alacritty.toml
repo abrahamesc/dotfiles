@@ -1,0 +1,65 @@
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+
+#theme = "Dracula"
+
+[colors]
+transparent_background_colors = true
+#
+#[colors.bright]
+#black = "#575b70"
+#blue = "#caa9fa"
+#cyan = "#9aedfe"
+#green = "#5af78e"
+#magenta = "#ff92d0"
+#red = "#ff6e67"
+#white = "#e6e6e6"
+#yellow = "#f4f99d"
+#
+#[colors.normal]
+#black = "#000000"
+#blue = "#caa9fa"
+#cyan = "#8be9fd"
+#green = "#50fa7b"
+#magenta = "#ff79c6"
+#red = "#ff5555"
+#white = "#bfbfbf"
+#yellow = "#f1fa8c"
+#
+#[colors.primary]
+#background = "#282a36"
+#foreground = "#f8f8f2"
+
+[env]
+TERM = "xterm-256color"
+WINIT_X11_SCALE_FACTOR = "1"
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "bitstromwera Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "bitstromwera Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "bitstromwera Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "bitstromwera Nerd Font Mono"
+style = "Regular"
+
+[window]
+#history = "10000"
+opacity = 1
+title = "Alacritty"
+
+[window.padding]
+x = 30
+y = 30
