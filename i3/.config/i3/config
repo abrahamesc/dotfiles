@@ -26,6 +26,12 @@ default_border pixel 2
 #Configure the monitors accordingly
 exec_always --no-startup-id /home/abe/.config/screenlayout/i3-screen.sh
 
+# Start Picom
+exec --no-startup-id picom &
+
+# Setup background picture
+exec_always --no-startup-id sleep 2 && nitrogen --restore &
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
@@ -58,11 +64,6 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 bindsym Print exec "flameshot gui"
 
-# Start Picom
-exec --no-startup-id picom &
-
-# Setup background picture
-exec_always --no-startup-id sleep 2 && nitrogen --restore &
 
 # Start Polybar
 
@@ -206,10 +207,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym l resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
         bindsym j resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+        bindsym h resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
