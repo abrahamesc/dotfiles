@@ -104,3 +104,8 @@ alias ls="lsd -lah --group-directories-first"
 alias goto=". ~/.local/bin/scripts/go_to_project.sh"
 SUDO_EDITOR=/usr/bin/nvim
 export SUDO_EDITOR
+[ -z "$TMUX" ] && export TERM=xterm-256color
+
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
