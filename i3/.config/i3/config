@@ -26,6 +26,10 @@ default_border pixel 2
 #Configure the monitors accordingly
 exec_always --no-startup-id /home/abe/.config/screenlayout/i3-screen.sh
 
+# Auto load the input remapper configuration
+
+exec_always --no-startup-id input-remapper-control --command autoload >& /dev/null
+
 # Start Picom
 exec --no-startup-id picom &
 
