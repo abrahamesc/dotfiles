@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+state=0
+
 while true; do
 MonitorCount=$(xrandr | grep " connected " | awk '{print $1}' | wc -l)
 
