@@ -108,6 +108,10 @@ require("lazy").setup({
     {
       'j-hui/fidget.nvim'
     },
+    {
+      'stevearc/dressing.nvim'
+
+    },
 
     {
     'hrsh7th/nvim-cmp',
