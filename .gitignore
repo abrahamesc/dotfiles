@@ -1,3 +1,4 @@
 scripts/.local/state/nvim
 scripts/.local/share/nvim
+nvim/.config/nvim/lazy-lock.json
 
