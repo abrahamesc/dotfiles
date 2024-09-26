@@ -24,7 +24,8 @@ default_border pixel 2
 #font pango:DejaVu Sans Mono 8
 
 #Configure the monitors accordingly
-exec_always --no-startup-id /home/abe/.config/screenlayout/i3-screen.sh
+
+#exec_always --no-startup-id /home/abe/.config/screenlayout/i3-screen.sh
 
 # Auto load the input remapper configuration
 
