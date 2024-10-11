@@ -103,6 +103,7 @@ alias vim="nvim"
 alias python="python3"
 alias ls="lsd -lah --group-directories-first"
 alias goto=". ~/.local/bin/scripts/go_to_project.sh"
+alias sd='cd ~ && cd $(find * -type d | fzf)'
 SUDO_EDITOR=/usr/bin/nvim
 export SUDO_EDITOR
 [ -z "$TMUX" ] && export TERM=xterm-256color
