@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias python="python3"
 alias ls="lsd -lah --group-directories-first"
 alias goto=". ~/.local/bin/scripts/go_to_project.sh"
 SUDO_EDITOR=/usr/bin/nvim
