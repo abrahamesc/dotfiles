@@ -100,10 +100,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
+alias vi="nvim"
 alias python="python3"
 alias ls="lsd -lah --group-directories-first"
-alias goto=". ~/.local/bin/scripts/go_to_project.sh"
 alias sd='cd ~ && cd $(find * -type d | fzf)'
+alias sshansible="ssh ansible@192.168.11.204 -p 2221"
 SUDO_EDITOR=/usr/bin/nvim
 export SUDO_EDITOR
 [ -z "$TMUX" ] && export TERM=xterm-256color
